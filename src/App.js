@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>Hello World s, {name}.</h1>
+      <h1>Hello World, {name}.</h1>
       <input value={name} type="text" placeholder="Digite seu nome aqui" onChange={e => setName(e.target.value)} />
     </>
   );
