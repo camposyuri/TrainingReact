@@ -6,6 +6,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   // Similar ao componentDidMount e componentDidUpdate:
+  // Será executado depois que a renderização estiver disponível na tela
   useEffect(() => {
     document.querySelector('#add').innerHTML = `Você clicou ${count} vezes`;
   });
